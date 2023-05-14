@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+  --primary-color: #00489b;
+  --secondary-color: #e6edf5;
+  --gray-color: #555;
+  --white-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+}
+
+/* Hero */
+
+.hero-section {
+  background-color: var(--secondary-color);
+  padding: 9.6rem 0;
+}
+
+.hero-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.hero-title {
+  font-size: 4rem;
+  line-height: 1.05;
+  color: var(--primary-color);
+  letter-spacing: -0.5px;
+  margin-bottom: 2.8rem;
+}
+
+.hero-desc {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: var(--gray-color);
+  margin-bottom: 2.8rem;
+}
+
+.hero-section img {
+  width: 100%;
+}
+
+.btn-contact:link,
+.btn-contact:visited {
+  display: inline;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.8rem;
+}
+
+/* Service */
+
+.service-section {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.service img {
+  width: 50%;
+}
+
+/* Process */
+
+.process-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.process img {
+  width: 30%;
+}
+
+/* Key Factor */
+
+.key-factor-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.key-factors {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.rectangle {
+  width: 20px;
+  height: 5px;
+  background-color: var(--primary-color);
+}
+
+/* Client */
+
+.client-section {
+  background-color: var(--secondary-color);
+}
+
+.client-logos {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  justify-content: center;
+  align-items: center;
+}
