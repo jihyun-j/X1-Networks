@@ -4,30 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="home.css" />
     <title>Home | X1-Networks</title>
   </head>
   <body>
-    <nav>
-      <p>X1-Networks</p>
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="service.html">Service</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <header class="header">
+      <p class="company-name">X1-Networks</p>
+      <nav>
+        <ul class="main-nav-list">
+          <li><a href="home.html" class="main-nav-link">Home</a></li>
+          <li><a href="service.html" class="main-nav-link">Service</a></li>
+          <li>
+            <a href="contact.html" class="main-nav-link nav-cta">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <!-- Hero Section -->
     <section class="hero-section">
-      <div class="hero-container">
-        <div>
-          <h1 class="hero-title">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
             Solving Business Problems by Automating Procress
           </h1>
+
           <p class="hero-desc">
             We do development and training on Microsoft SharePoint, Power
-            Platform, Teams, Microsoft 365 and OneDrive
+            Platform, Teams, Microsoft 365 and OneDrive.
           </p>
-          <a href="" class="btn-contact">Contact</a>
+          <a href="#" class="btn btn--full margin-right-sm">Contact</a>
+          <a href="#" class="btn btn--outline">Learn More</a>
         </div>
         <div>
           <img src="img/home1.jpg" alt="" />
