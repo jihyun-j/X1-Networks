@@ -61,56 +61,6 @@ body {
 /************************************************/
 
 /**********************************/
-/* GENARAL COMPONANTS */
-/**********************************/
-
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  color: var(--primary-color);
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
-}
-
-.btn:link,
-.btn:visited {
-  color: var(--white-color);
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  transition: all 0.5s;
-}
-
-.btn--full:link,
-.btn--full:visited {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-}
-
-.btn--full:hover,
-.btn--full:active {
-  background-color: #4d7fb9;
-}
-
-.btn--outline:link,
-.btn--outline:visited {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-}
-
-.btn--outline:hover,
-.btn--outline:active {
-  box-shadow: inset 0 0 0 3px #fff;
-}
-
-.margin-right-sm {
-  margin-right: 1.6rem;
-}
-
-/**********************************/
 /* HEADER SECTION*/
 /**********************************/
 
@@ -214,58 +164,45 @@ body {
 /**********************************/
 
 .service-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 9.6rem 0;
   background-color: var(--primary-color);
-  color: var(--white-color);
-}
-
-.service-container {
-  max-width: 130rem;
-  margin: 0 auto;
-}
-
-.our-service {
-  font-size: 3.5rem;
-  margin-bottom: 2.8rem;
-}
-
-.our-service-desc {
-  font-size: 1.4rem;
-}
-
-.service-title {
-  font-size: 2.5rem;
-  margin-bottom: 2.6rem;
 }
 
 .service-desc {
-  font-size: 1.3rem;
-  line-height: 1.5;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 2rem;
+  color: #ddd;
 }
 
-.service {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.service-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.service-detail {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.service-img-box {
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
 }
 
-.service img {
+.service-img {
   width: 100%;
 }
 
-.btn-learnmore:link,
-.btn-learnmore:visited {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  font-size: 1.4rem;
-  text-decoration: none;
-  padding: 1.2rem 2.4rem;
-  border-radius: 0.8rem;
+.service-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9.6rem;
 }
 
 /* Process */

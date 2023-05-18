@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="component.css" />
     <title>Home | X1-Networks</title>
   </head>
   <body>
@@ -49,63 +50,73 @@
 
     <!-- Service Section -->
     <section class="service-section">
-      <div class="service-container">
-        <div class="service-header">
-          <h2 class="our-service">Our Service</h2>
-          <p class="our-service-desc">
-            We focus on using Microsoft technologies to deliver secure
-            enterprise solutions.
+      <div class="container">
+        <h2 class="heading-secondary">Our Service</h2>
+        <p class="service-desc">
+          We focus on using Microsoft technologies to deliver secure enterprise
+          solutions.
+        </p>
+      </div>
+
+      <div class="container grid grid--2-cols grid--center-v">
+        <!-- Service 01 -->
+        <div class="service-text-box">
+          <p class="service-number">01</p>
+          <h3 class="heading-tertiary">Automation and Workflows</h3>
+          <p class="service-detail">
+            Creating an easily discoverable, self-service website for an
+            overworked helpdesk, or storing hundreds of thousands of documents
+            in a single, searchable web interface, our customized approach
+            balances efficiency and effectiveness to best meet your
+            organization's needs.
           </p>
         </div>
 
-        <div class="service">
-          <div>
-            <img src="img/organizational-agility.svg" alt="" />
-          </div>
-          <div>
-            <h3 class="service-title">Automation and Workflows</h3>
-            <p class="service-desc">
-              Creating an easily discoverable, self-service website for an
-              overworked helpdesk, or storing hundreds of thousands of documents
-              in a single, searchable web interface, our customized approach
-              balances efficiency and effectiveness to best meet your
-              organization's needs.
-            </p>
-          </div>
+        <div class="service-img-box">
+          <img
+            class="service-img"
+            src="img/organizational-agility.svg"
+            alt="" />
         </div>
 
-        <div class="service">
-          <div>
-            <h3 class="service-title">Power Platform</h3>
-            <p class="service-desc">
-              Since Microsoft Power Platform launched, we have been combining
-              SharePoint and Power Platform to create even more robust
-              solutions.
-            </p>
-          </div>
-          <div>
-            <img src="img/problemsolving.svg" alt="" />
-          </div>
+        <!-- Service 02 -->
+        <div class="service-img-box">
+          <img
+            class="service-img"
+            src="img/organizational-agility.svg"
+            alt="" />
         </div>
 
-        <div class="service">
-          <div>
-            <img src="img/wishlist.svg" alt="" />
-          </div>
-          <div>
-            <h3 class="service-title">Customized Services</h3>
-            <p class="service-desc">
-              We utilize multiple tools to build customized solutions that best
-              meet business purposes. Because we design solutions specific to
-              your requirements, you will be able to take advantage of these
-              tools, regardless of whether they are already familiar to you or
-              brand new.
-            </p>
-          </div>
+        <div class="service-text-box">
+          <p class="service-number">02</p>
+          <h3 class="heading-tertiary">Power Platform</h3>
+          <p class="service-detail">
+            Since Microsoft Power Platform launched, we have been combining
+            SharePoint and Power Platform to create even more robust solutions.
+          </p>
+        </div>
+
+        <!-- Service 03 -->
+        <div class="service-text-box">
+          <p class="service-number">03</p>
+          <h3 class="heading-tertiary">Customized Services</h3>
+          <p class="service-detail">
+            We utilize multiple tools to build customized solutions that best
+            meet business purposes. Because we design solutions specific to your
+            requirements, you will be able to take advantage of these tools,
+            regardless of whether they are already familiar to you or brand new.
+          </p>
+        </div>
+
+        <div class="service-img-box">
+          <img
+            class="service-img"
+            src="img/organizational-agility.svg"
+            alt="" />
         </div>
       </div>
-      <div>
-        <a href="" class="btn-learnmore">Learn More</a>
+      <div class="service-btn-box">
+        <a href="" class="btn btn--outline">Learn More</a>
       </div>
     </section>
 
