@@ -51,7 +51,7 @@
     <!-- Service Section -->
     <section class="service-section">
       <div class="container">
-        <h2 class="heading-secondary">Our Service</h2>
+        <h2 class="heading-secondary white-color">Our Service</h2>
         <p class="service-desc">
           We focus on using Microsoft technologies to deliver secure enterprise
           solutions.
@@ -122,8 +122,8 @@
 
     <!-- Process Section -->
     <section class="process-section">
-      <div class="process-header">
-        <h2 class="process-title">How we Work</h2>
+      <div class="container">
+        <h2 class="heading-secondary primary-color">How we Work</h2>
         <p class="process-desc">
           We take an agile, sprint-based approach to our work. This allows us to
           continuously identify and prioritize issues, and to quickly develop
@@ -132,64 +132,86 @@
       </div>
 
       <div class="process-container">
-        <div class="process">
-          <img src="img/startup-idea-bulb.svg" alt="" />
-          <p>IDENTIFY PROBLEM & <br />PRIORITIZE ISSUES</p>
+        <div class="process-box">
+          <img class="process-img" src="img/startup-idea-bulb.svg" alt="" />
+          <p class="process-text">IDENTIFY PROBLEM & <br />PRIORITIZE ISSUES</p>
         </div>
 
-        <div class="process">
-          <img src="img/startup-development.svg" alt="" />
-          <p>DEVELOPMENT</p>
+        <div class="process-box">
+          <img class="process-img" src="img/startup-development.svg" alt="" />
+          <p class="process-text">DEVELOPMENT</p>
         </div>
 
-        <div class="process">
-          <img src="img/startup-rocket.svg" alt="" />
-          <p>DELIVERABLE</p>
+        <div class="process-box">
+          <img class="process-img" src="img/startup-rocket.svg" alt="" />
+          <p class="process-text">DELIVERABLE</p>
         </div>
       </div>
 
-      <div class="key-factor-container">
-        <div class="key-factor-header">
-          <p>
+      <div class="key-factor-container container">
+        <div>
+          <p class="key-factor-text">
             By focusing on a more contained set of deliverables in shorter
-            periods of time, we can balance several key factors
+            periods of time, <br />we can balance several key factors
           </p>
         </div>
 
         <div class="key-factors">
+          <!-- Key Factor 1 -->
           <div class="key-factor">
-            <h4>CLARITY</h4>
-            <div class="rectangle"></div>
-            <p>
+            <div class="key-factor-box">
+              <ion-icon
+                class="key-factor-icon"
+                name="checkmark-circle-outline"></ion-icon>
+              <span class="key-factor-header">CLARITY</span>
+            </div>
+
+            <p class="key-factor-desc">
               A sprint schedule sets clear expectations for the project. This
               clarity also helps to communicate the different components that
               comprise your customized solution.
             </p>
           </div>
 
+          <!-- Key Factor 2 -->
           <div class="key-factor">
-            <h4>OPTIMIZING EFFICIENCY</h4>
-            <div class="rectangle"></div>
-            <p>
+            <div class="key-factor-box">
+              <ion-icon class="key-factor-icon" name="golf-outline"></ion-icon>
+              <span class="key-factor-header">OPTIMIZING EFFICIENCY</span>
+            </div>
+
+            <p class="key-factor-desc">
               Dividing the project into smaller goals allows us to keep the
               momentum of success—not just by achieving paced milestones, but
               also by containing any troubleshooting that arises.
             </p>
           </div>
 
+          <!-- Key Factor 3 -->
           <div class="key-factor">
-            <h4>PLANNING</h4>
-            <div class="rectangle"></div>
-            <p>
+            <div class="key-factor-box">
+              <ion-icon
+                class="key-factor-icon"
+                name="calendar-outline"></ion-icon>
+              <span class="key-factor-header">PLANNING</span>
+            </div>
+
+            <p class="key-factor-desc">
               Viewing the project from a sprint perspective also lays the
               foundation for maintenance, support, and successful training.
             </p>
           </div>
 
+          <!-- Key Factor 4 -->
           <div class="key-factor">
-            <h4>ALIGNMENT</h4>
+            <div class="key-factor-box">
+              <ion-icon
+                class="key-factor-icon"
+                name="trending-up-outline"></ion-icon>
+              <span class="key-factor-header">ALIGNMENT</span>
+            </div>
             <div class="rectangle"></div>
-            <p>
+            <p class="key-factor-desc">
               Smaller sets of deliverables support business goals by providing
               easily reportable progress along the way to completion.
             </p>
@@ -198,10 +220,11 @@
       </div>
     </section>
 
+    <!-- Our Clients Section -->
     <section class="client-section">
-      <div class="client-container">
+      <div class="client-container container">
         <div class="client-header">
-          <h2 class="client-title">Our Clients</h2>
+          <h2 class="heading-secondary primary-color">Our Clients</h2>
           <p class="client-desc">
             We work with leaders from a variety of industry categories including
             technology, energy, communication, construction, biotech, and
@@ -248,6 +271,13 @@
         </div>
       </div>
     </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
   <footer>©2022 by X1-Networks, Inc.</footer>
 </html>

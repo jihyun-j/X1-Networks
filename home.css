@@ -125,7 +125,7 @@ body {
 
 .hero-section {
   background-color: var(--secondary-color);
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 15rem 0;
 }
 
 .hero {
@@ -205,82 +205,98 @@ body {
   margin-top: 9.6rem;
 }
 
-/* Process */
+/**********************************/
+/* PROCESS SECTION */
+/**********************************/
+
 .process-section {
-  max-width: 130rem;
-  margin: 0 auto;
-  align-items: center;
   padding: 9.6rem 0;
 }
 
-.process-header {
-  margin-bottom: 2.8rem;
-}
-
-.process-title {
-  font-size: 3rem;
-  margin-bottom: 2.6rem;
-}
-
 .process-desc {
-  font-size: 1.5rem;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 2rem;
+  line-height: 1.6;
+  margin-bottom: 8.6rem;
 }
 
 .process-container {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  justify-content: center;
+  display: flex;
   align-items: center;
-  margin-bottom: 10rem;
+  justify-content: center;
+  margin-bottom: 8.6rem;
 }
 
-.process {
+.process-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 2rem;
-}
-
-.process p {
-  text-align: center;
-  font-size: 1.2rem;
-  letter-spacing: 0.1rem;
-  font-weight: 500;
-  color: var(--primary-color);
-}
-
-.process img {
-  width: 30%;
-  background-color: var(--secondary-color);
-  padding: 2rem;
-  border-radius: 50%;
-}
-
-/* Key Factor */
-
-.key-factor-container {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.process-img {
+  width: 35%;
+  text-align: center;
+}
+
+.process-text {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/**********************************/
+/* KEY FACTOR SECTION */
+/**********************************/
+
+.key-factor-text {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 8rem;
 }
 
 .key-factors {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 5rem;
 }
 
-.rectangle {
-  width: 20px;
-  height: 5px;
-  background-color: var(--primary-color);
+.key-factor-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  gap: 1rem;
 }
 
-/* Client */
+.key-factor-header {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.key-factor-icon {
+  font-size: 2.4rem;
+  color: var(--primary-color);
+}
+
+.key-factor-desc {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/**********************************/
+/* OUR CLIENTS SECTION */
+/**********************************/
 
 .client-section {
+  padding: 9.6rem 0;
   background-color: var(--secondary-color);
 }
 
@@ -292,20 +308,19 @@ body {
   padding: 9.6rem 0;
 }
 
-.client-title {
-  font-size: 3.2rem;
-  margin-bottom: 2rem;
-}
-
 .client-desc {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 2rem;
+  line-height: 1.6;
+  margin-bottom: 8rem;
 }
 
 .client-logos {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  gap: 5rem;
 }
 
 .client-logos .img {
