@@ -34,32 +34,6 @@
 
  */
 
-:root {
-  --primary-color: #00489b;
-  --secondary-color: #e6edf5;
-  --gray-color: #555;
-  --white-color: #fff;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-}
-
-/************************************************/
-
 /**********************************/
 /* HEADER SECTION*/
 /**********************************/
@@ -326,4 +300,14 @@ body {
 .client-logos .img {
   display: flex;
   justify-content: center;
+}
+
+/**********************************/
+/* FOOTER SECTION*/
+/**********************************/
+
+.footer {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5rem 0;
 }

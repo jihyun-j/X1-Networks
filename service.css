@@ -1,61 +1,135 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+/**********************************/
+/* HEADER SECTION*/
+/**********************************/
 
-/* Font Size */
-
-/* Color */
-:root {
-  --primary-color: #00489b;
-  --secondary-color: #e6edf5;
-  --gray-color: #555;
-  --white-color: #fff;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-}
-
-nav {
+.header {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary-color);
+  height: 9.6rem;
+  padding: 0 4.8rem;
 }
 
-ul {
-  display: flex;
-  gap: 2em;
+/**********************************/
+/* NAVIGATION SECTION*/
+/**********************************/
+
+.main-nav-list {
   list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }
 
-.service-intro {
+.company-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  text-decoration: wavy;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: var(--primary-color);
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/**********************************/
+/* SERVICE SECTION*/
+/**********************************/
+
+.service-intro-section {
+  background-color: #00489b;
+  color: #fff;
+}
+
+.service-intro-container {
+  padding: 2rem 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.service-intro-desc {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.service-intro-item {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-top: 2rem;
+}
+.services-section {
+  padding: 5rem 0;
+}
+
+.service-desc-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  background-color: var(--primary-color);
-  color: var(--white-color);
 }
 
-.service-container {
-  display: flex;
+.service-desc {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.share-point h3 {
+  color: #04686d;
+}
+
+.power-apps h3 {
+  color: #742773;
+}
+
+.power-bi h3 {
+  color: #edbd0f;
+}
+
+.power-automate h3 {
+  color: #0277fe;
+}
+
+.one-drive h3 {
+  color: #24a1e7;
+}
+
+.teams h3 {
+  color: #4f59c9;
+}
+
+/**********************************/
+/* FOOTER SECTION*/
+/**********************************/
+
+.footer {
+  font-size: 2rem;
   text-align: center;
-  gap: 10px;
-}
-
-.service-title {
-  font-size: 3.2rem;
-}
-
-.service-section {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+  margin: 5rem 0;
 }
